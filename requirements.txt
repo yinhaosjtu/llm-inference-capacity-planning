@@ -1,0 +1,10 @@
+# Core optimization solver (requires a valid Gurobi academic or commercial license)
+gurobipy>=10.0.0
+
+# Scientific computing and statistics
+numpy>=1.24.0
+scipy>=1.10.0
+
+# Experiment reporting and plotting
+openpyxl>=3.1.0
+matplotlib>=3.7.0

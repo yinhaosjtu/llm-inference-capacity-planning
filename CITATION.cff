@@ -1,0 +1,21 @@
+cff-version: 1.2.0
+title: "Strategic Capacity Planning for Large Language Model Inference Services under Demand Uncertainty"
+message: "If you use this code or the benchmark instances in your research, please cite the accompanying paper."
+type: software
+license: MIT
+authors:
+  - name: "The Authors"
+keywords:
+  - Large Language Model
+  - Capacity Investment
+  - Risk Management
+  - Two-Stage Stochastic Programming
+  - Benders Decomposition
+preferred-citation:
+  type: article
+  title: "Strategic Capacity Planning for Large Language Model Inference Services under Demand Uncertainty"
+  authors:
+    - name: "The Authors"
+  journal: "International Journal of Production Economics"
+  status: in-press
+  year: 2026
