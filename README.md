@@ -9,6 +9,25 @@ Official code and benchmark instances for the paper:
 > Hengwen Xu, Yichen Wang, Jie Yin, Hao Yin  
 > *International Journal of Production Economics*, 2026, Article 110285. DOI: [10.1016/j.ijpe.2026.110285](https://doi.org/10.1016/j.ijpe.2026.110285)
 
+## Citation
+
+If you use this repository or the benchmark instances in your research, please cite the accompanying paper (also available via GitHub's **Cite this repository** button / [`CITATION.cff`](CITATION.cff)):
+
+```bibtex
+@article{Xu_2026,
+  title     = {Strategic capacity planning for large language model inference services under demand uncertainty},
+  author    = {Xu, Hengwen and Wang, Yichen and Yin, Jie and Yin, Hao},
+  journal   = {International Journal of Production Economics},
+  publisher = {Elsevier BV},
+  year      = {2026},
+  month     = nov,
+  pages     = {110285},
+  issn      = {0925-5273},
+  doi       = {10.1016/j.ijpe.2026.110285},
+  url       = {http://dx.doi.org/10.1016/j.ijpe.2026.110285}
+}
+```
+
 ---
 
 ## Overview
@@ -192,27 +211,6 @@ print("BD  obj:", res_bd["obj_val"], "time:", res_bd["time"])
 - **Hardware Incompatibility Set ($\Psi_{\text{incomp}}$)**: Both solvers enforce $x_{jk,s} = 0$ and $e_{jk,s} = 0$ for any incompatible pair $(j, k) \in \Psi_{\text{incomp}}$ (reflecting that a request exceeding device HBM cannot run on GPU type $k$ either on-premise or in the cloud). In all 25 provided benchmark instances and sensitivity sweeps, $\Psi_{\text{incomp}}$ is empty under the baseline GQA calibration.
 - **Caching**: Experiment scripts cache completed runs in `cache/comparative/`, `cache/vss/`, and `cache/sensitivity/`. If you modify solver tolerances, instance files, or experiment constants, delete the corresponding `cache/` subdirectory before rerunning so stale entries are not reused.
 - **Timing and Hardware Variability**: Wall-clock solve times and minor floating-point tie-breaks depend on CPU architecture, thread count, and Gurobi version; certified optimal objective values agree across platforms.
-
----
-
-## Citation
-
-If you find this repository or the benchmark instances useful in your work, please cite the accompanying paper (see also [`CITATION.cff`](CITATION.cff)):
-
-```bibtex
-@article{Xu_2026,
-  title     = {Strategic capacity planning for large language model inference services under demand uncertainty},
-  author    = {Xu, Hengwen and Wang, Yichen and Yin, Jie and Yin, Hao},
-  journal   = {International Journal of Production Economics},
-  publisher = {Elsevier BV},
-  year      = {2026},
-  month     = nov,
-  pages     = {110285},
-  issn      = {0925-5273},
-  doi       = {10.1016/j.ijpe.2026.110285},
-  url       = {http://dx.doi.org/10.1016/j.ijpe.2026.110285}
-}
-```
 
 ---
 
