@@ -1,11 +1,13 @@
 # Strategic Capacity Planning for Large Language Model Inference Services under Demand Uncertainty
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+[![DOI](https://img.shields.io/badge/DOI-10.1016%2Fj.ijpe.2026.110285-blue.svg)](https://doi.org/10.1016/j.ijpe.2026.110285)
 
 Official code and benchmark instances for the paper:
 
 > **Strategic Capacity Planning for Large Language Model Inference Services under Demand Uncertainty**  
-> *International Journal of Production Economics* (Accepted / In Press)
+> Hengwen Xu, Yichen Wang, Jie Yin, Hao Yin  
+> *International Journal of Production Economics*, 2026, Article 110285. DOI: [10.1016/j.ijpe.2026.110285](https://doi.org/10.1016/j.ijpe.2026.110285)
 
 ---
 
@@ -198,12 +200,17 @@ print("BD  obj:", res_bd["obj_val"], "time:", res_bd["time"])
 If you find this repository or the benchmark instances useful in your work, please cite the accompanying paper (see also [`CITATION.cff`](CITATION.cff)):
 
 ```bibtex
-@article{llm_capacity_planning_ijpe,
-  title   = {Strategic Capacity Planning for Large Language Model Inference Services under Demand Uncertainty},
-  author  = {The Authors},
-  journal = {International Journal of Production Economics},
-  year    = {2026},
-  note    = {In Press}
+@article{Xu_2026,
+  title     = {Strategic capacity planning for large language model inference services under demand uncertainty},
+  author    = {Xu, Hengwen and Wang, Yichen and Yin, Jie and Yin, Hao},
+  journal   = {International Journal of Production Economics},
+  publisher = {Elsevier BV},
+  year      = {2026},
+  month     = nov,
+  pages     = {110285},
+  issn      = {0925-5273},
+  doi       = {10.1016/j.ijpe.2026.110285},
+  url       = {http://dx.doi.org/10.1016/j.ijpe.2026.110285}
 }
 ```
 

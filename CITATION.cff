@@ -3,8 +3,16 @@ title: "Strategic Capacity Planning for Large Language Model Inference Services 
 message: "If you use this code or the benchmark instances in your research, please cite the accompanying paper."
 type: software
 license: MIT
+repository-code: "https://github.com/yinhaosjtu/llm-inference-capacity-planning"
 authors:
-  - name: "The Authors"
+  - family-names: Xu
+    given-names: Hengwen
+  - family-names: Wang
+    given-names: Yichen
+  - family-names: Yin
+    given-names: Jie
+  - family-names: Yin
+    given-names: Hao
 keywords:
   - Large Language Model
   - Capacity Investment
@@ -13,9 +21,22 @@ keywords:
   - Benders Decomposition
 preferred-citation:
   type: article
-  title: "Strategic Capacity Planning for Large Language Model Inference Services under Demand Uncertainty"
+  title: "Strategic capacity planning for large language model inference services under demand uncertainty"
   authors:
-    - name: "The Authors"
+    - family-names: Xu
+      given-names: Hengwen
+    - family-names: Wang
+      given-names: Yichen
+    - family-names: Yin
+      given-names: Jie
+    - family-names: Yin
+      given-names: Hao
   journal: "International Journal of Production Economics"
-  status: in-press
+  publisher:
+    name: "Elsevier BV"
   year: 2026
+  month: 11
+  start: 110285
+  issn: "0925-5273"
+  doi: "10.1016/j.ijpe.2026.110285"
+  url: "https://doi.org/10.1016/j.ijpe.2026.110285"
